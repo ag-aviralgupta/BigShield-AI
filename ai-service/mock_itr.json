@@ -1,0 +1,23 @@
+{
+  "ABCDE1234F": {
+    "company": "ABC Industries",
+    "filing_status": "FILED",
+    "financial_year": "2025-26",
+    "turnover": 84000000,
+    "verified": true
+  },
+  "XYZDE5678G": {
+    "company": "XYZ Enterprises",
+    "filing_status": "FILED",
+    "financial_year": "2025-26",
+    "turnover": 69000000,
+    "verified": true
+  },
+  "TECHP9012H": {
+    "company": "TechPro Solutions",
+    "filing_status": "NOT_FILED",
+    "financial_year": "2025-26",
+    "turnover": 0,
+    "verified": false
+  }
+}

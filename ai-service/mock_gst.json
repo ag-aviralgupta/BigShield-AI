@@ -1,0 +1,22 @@
+{
+  "07ABCDE1234F1Z5": {
+    "company": "ABC Industries",
+    "status": "ACTIVE",
+    "verified": true
+  },
+  "07XYZDE5678G1Z2": {
+    "company": "XYZ Enterprises",
+    "status": "ACTIVE",
+    "verified": true
+  },
+  "07TECHP9012H1Z8": {
+    "company": "TechPro Solutions",
+    "status": "ACTIVE",
+    "verified": true
+  },
+  "07AHAPK1142Q1ZB": {
+    "company": "ABC Industries",
+    "status": "ACTIVE",
+    "verified": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ABCDE1234F": {
+    "company": "ABC Industries",
+    "status": "ACTIVE",
+    "verified": true
+  },
+  "XYZDE5678G": {
+    "company": "XYZ Enterprises",
+    "status": "ACTIVE",
+    "verified": true
+  },
+  "TECHP9012H": {
+    "company": "TechPro Solutions",
+    "status": "ACTIVE",
+    "verified": true
+  },
+
+  "AHAPK1142Q": {
+    "company": "Divine Laboratories",
+    "status": "ACTIVE",
+    "verified": true
+  }
+  
+}
