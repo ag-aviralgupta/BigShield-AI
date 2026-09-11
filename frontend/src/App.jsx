@@ -647,18 +647,20 @@ function Dashboard({ tender, bidders, requirements, intelligence, onBidder, setP
           <div className="stat-column">
             <span className="col-label">Total compliance</span>
             <div className="big-stat-wrap">
-              <span className="big-number">{avgScore || 87.5}%</span>
-              <span className="trend-chip">↗ 4.2%</span>
+              <span className="big-number">{avgScore}%</span>
+              <span className={`trend-chip ${avgScore >= 70 ? 'positive' : 'negative'}`}>
+                {avgScore >= 70 ? `↗ +${avgScore - 70}%` : `↘ -${70 - avgScore}%`}
+              </span>
             </div>
             <p className="stat-comparison">vs 70% baseline criteria</p>
 
             <div className="progress-section">
               <div className="progress-label-row">
                 <span>Target progress</span>
-                <b>84%</b>
+                <b>{avgScore}%</b>
               </div>
               <div className="progress-track">
-                <div className="progress-bar" style={{ width: '84%' }} />
+                <div className="progress-bar" style={{ width: `${Math.min(100, Math.max(0, avgScore))}%` }} />
               </div>
             </div>
           </div>
