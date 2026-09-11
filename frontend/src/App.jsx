@@ -656,7 +656,7 @@ function Dashboard({ tender, bidders, requirements, intelligence, onBidder, setP
 
             <div className="progress-section">
               <div className="progress-label-row">
-                <span>Target progress</span>
+                <span>Current compliance</span>
                 <b>{avgScore}%</b>
               </div>
               <div className="progress-track">
