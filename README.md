@@ -547,3 +547,6 @@ A foundational design principle of BigShield AI is that **Document Extraction is
 - **Forensic Document Tampering Analysis**: Metadata inspection, font disparity detection, and EXIF forensic checks to detect edited or photoshopped certificates.
 - **Cross-Tender Bidder Intelligence**: Historical bid tracking across multiple GeM tenders to identify cartel formation, circular bidding, and shell company networks.
 - **Scalable Asynchronous Queue**: Background processing with Celery/Redis for batch processing thousands of bids simultaneously.
+
+.\venv\Scripts\Activate.ps1
+uvicorn main:app --reload --port 8000
